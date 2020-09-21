@@ -3,3 +3,4 @@
 papers.csv
 *-checkpoint.ipynb
 *.Identifier
+.vscode

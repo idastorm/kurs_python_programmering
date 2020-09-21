@@ -1,1 +1,5 @@
 .ipynb_checkpoints
+*.pyc
+papers.csv
+*-checkpoint.ipynb
+*.Identifier

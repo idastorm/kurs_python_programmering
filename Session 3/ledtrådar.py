@@ -32,11 +32,11 @@ class Utmaning_index:
 class Utmaning_namn:
     
     def ledtråd1():
-        print("Ett dubbelnamn har antingen ett mellanrum ( ) eller ett bindesteck (-) i namnet. Använd det i din if-sats.")
+        print("Ett dubbelnamn har antingen ett mellanrum ( ) eller ett bindesteck (-) i namnet. Använd det i din if-sats. (if ' ' in namn)")
     
     def ledtråd2():
         print("För att undersöka om namnet har ett mellanrum ELLER ett bindestreck, använd or i din if-sats.")
         
     def lösning():
-        print("for namn in mest_populära_killnamn_2014:\n    if '-' or ' ' in namn:\n        print(namn)")
+        print("for namn in mest_populära_killnamn_2014:\n    if '-' in namn or ' ' in namn:\n        print(namn)")
               
